@@ -1,0 +1,13 @@
+name: Minify HTML
+version: 1.0.0
+description: "Minifies the HTML output of Flextype."
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/minify-html
+bugs: https://github.com/flextype-plugins/minify-html/issues
+license: MIT
+
+# Plugin settings
+enabled: true
