@@ -1,5 +1,5 @@
 name: Minify HTML
-version: 1.0.1
+version: 1.1.0
 description: "Minifies the HTML output of Flextype."
 author:
   name: Sergey Romanenko

@@ -16,7 +16,7 @@ namespace Flextype;
 use Flextype\Component\Event\Event;
 
 // Event: onCurrentPageAfterProcessed
-Event::addListener('onCurrentPageAfterProcessed', function () {
+Event::addListener('onCurrentEntryAfterProcessed', function () {
     $content = ob_get_contents();
     ob_end_clean();
     echo MinifyHTML::process($content);
